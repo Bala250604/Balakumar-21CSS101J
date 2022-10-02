@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    FILE *fpointer = fopen("NotFoundFile.txt","r");
+    if (fpointer == NULL)
+    {
+        fprintf(stderr, "File not found, failed to open it.\n");
+        exit(EXIT_FAILURE);
+    }
+    
+    /* If the file is found the code execution will continue. */
+    fclose(fpointer);
+    printf("Success\n");
+}
