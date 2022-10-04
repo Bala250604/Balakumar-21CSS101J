@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <string.h>
+
+int vowel_check(char); /* Define function prototype. */
+
+int main() {
+  /* Variable Declaration and Initialization. */
+  char inputs[100], output[100];
+  int i, d = 0;
+  
+  /* taking user input */
+  printf("Enter some text:\n");
+  gets(inputs);
+
+  /* checking and removing the vowels letters */
+  for (i = 0; inputs[i] != '\0'; i++) {
+    if (vowel_check(inputs[i]) == 0) {
+      /* not a vowel  */
+      output[d] = inputs[i];
+      d++;
+    }
+  }
+  output[d] = '\0';
+  strcpy(inputs, output);
+  printf("The text after deleting Vowels letters: %s\n", inputs);
+  return 0;
+}
+
+/* Function Definition - User Defined Function */
+int vowel_check(char l) {
+  if (l == 'a' || l == 'A' || l == 'e' || l == 'E' || l == 'i' || l == 'I' ||
+    l == 'o' || l == 'O' || l == 'u' || l == 'U')
+    return 1;
+  return 0;
+}
