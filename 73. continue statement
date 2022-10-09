@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int i, n, a, sq;
+    printf("\n\tProgram finds square of positive numbers only\n");
+    printf("\nHow many numbers you want to enter: ");
+    scanf("%d", &n);
+    for (i=1; i<=n; i++)
+    {
+        printf("\nEnter Number: ");
+        scanf("%d", &a);
+        if (a < 0)
+            continue;
+        sq = a * a;
+        printf("\nSquare of a Number : %d\n", sq);
+    }
+    return 0;
+}
