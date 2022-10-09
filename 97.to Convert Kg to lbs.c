@@ -1,0 +1,26 @@
+#include 
+//#include 
+
+void main() {
+
+ float kg,lbs;
+  
+
+    clrscr();
+
+    printf("C Program to convert  Kilogram to Lbs (Pounds) :  ");
+
+    printf("\n\n Enter Weight in Kilogram  : ");
+	scanf("%f", &kg);
+    
+    lbs = kg*2.20462;
+    
+    printf("\n\n %f Kg  =  %f Lbs (pound) \n",kg,lbs );
+
+
+
+	getch();
+
+
+
+}
