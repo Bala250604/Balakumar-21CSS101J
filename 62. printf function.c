@@ -1,6 +1,6 @@
 #include <stdio.h>
-main()
+int main()
 {
-printf("You are learning printf() function");
+printf("You are learning printf() function\n");
 printf("You are learning printf() function");
 }
