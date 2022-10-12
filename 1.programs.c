@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-     int addition, num1, num2;
+  int addition, num1, num2;
   printf("RA2211042010053");
   printf("Enter two numbers to add\n");
   scanf("%d%d", &num1, &num2);
