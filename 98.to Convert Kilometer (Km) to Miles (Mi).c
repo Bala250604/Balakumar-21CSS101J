@@ -5,9 +5,6 @@ void main() {
 
   float km;
   float miles;
-  
-
-//    clrscr();
 
 	printf(" Program to convert Kilometer to Miles :  ");
 
