@@ -1,7 +1,8 @@
 #include<stdio.h>
-main()
+int main()
 {
     int a[10],i,sum=0;
+    printf("RA2211042010053");
     printf("Enter upto 5 Values: ");
     for(i=0; i<5; i++)
         scanf("%d",&a[i]);
