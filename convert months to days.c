@@ -2,6 +2,7 @@
 int main() {
     int months;
     int days;
+    printf("RA2211042010053\n");
     printf("Enter days\n");
     scanf("%d",&days);
     months= days / 30;
