@@ -1,0 +1,10 @@
+#include <stdio.h>
+#define PRINT(int) printf("int=%d, ", int);
+int main() {
+    int x=2, y=3, z=4;   
+	  PRINT(x);
+	  PRINT(y);
+	  PRINT(z);
+    //RA2211042010053
+    return 0;
+}
